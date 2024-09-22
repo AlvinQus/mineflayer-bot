@@ -15,7 +15,7 @@ function createBot() {
       auth: config['bot-account']['type'],
       host: "kalwi.id",
       port: 25565,
-      version: 1.17.1,
+      version: "1.17.1",
    });
 
    /*bot.loadPlugin(pathfinder);
