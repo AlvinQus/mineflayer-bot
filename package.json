@@ -4,9 +4,9 @@
   "description": "Afk bot for minecraft servers.",
   "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ."
   },
-  "author": "urFate",
+  "author": "AlvinQID",
   "license": "MIT",
   "dependencies": {
     "log4js": "^6.7.1",
