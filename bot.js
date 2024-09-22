@@ -13,9 +13,9 @@ function createBot() {
       username: config['bot-account']['username'],
       password: config['bot-account']['password'],
       auth: config['bot-account']['type'],
-      host: config.server.ip,
-      port: config.server.port,
-      version: config.server.version,
+      host: "kalwi.id",
+      port: 25565,
+      version: 1.17.1,
    });
 
    /*bot.loadPlugin(pathfinder);
@@ -30,12 +30,12 @@ function createBot() {
 
       if (config.utils['auto-auth'].enabled) {
          logger.info('Started auto-auth module');
-
-         let password = config.utils['auto-auth'].password;
+*/
+         let password = "12341234";
          setTimeout(() => {
             bot.chat(`/register ${password} ${password}`);
             bot.chat(`/login ${password}`);
-         }, 500);
+         }, 500); /*
 
          logger.info(`Authentication commands executed`);
       }
